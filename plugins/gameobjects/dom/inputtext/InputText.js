@@ -49,6 +49,7 @@ class InputText extends DOMElement {
             }
         }
         style['box-sizing'] = 'border-box';
+        style['pointer-events'] = 'all';
         super(scene, x, y, element, style);
         this.type = 'rexInputText';
         this.resize(width, height);
